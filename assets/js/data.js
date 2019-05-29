@@ -100,6 +100,42 @@ var data = [
             image: './assets/images/logo/react.svg',
             href: 'https://zh-hans.reactjs.org/',
             desc: '用于构建用户界面的 JavaScript 库'
+          },
+          {
+            title: 'Ant Design React',
+            image: './assets/images/logo/Ant Design React.svg',
+            href: 'https://ant.design/',
+            desc: '服务于企业级产品的设计体系，基于确定和自然的设计价值观上的模块化解决方案，让设计者和开发者专注于更好的用户体验。'
+          },
+          {
+            title: 'Nerv',
+            image: './assets/images/logo/nerv.png',
+            href: 'https://nerv.aotu.io/',
+            desc: '一个基于 Virtual DOM 的类 React 组件框架'
+          },
+          {
+            title: 'React Router',
+            image: './assets/images/logo/react_router.png',
+            href: 'https://reacttraining.com/react-router/',
+            desc: 'React Router is a collection of navigational components that compose declaratively with your application.'
+          },
+          {
+            title: 'Next.js',
+            image: './assets/images/logo/nextjs.png',
+            href: 'https://nextjs.org/',
+            desc: 'The React Framework'
+          },
+          {
+            title: 'DvaJS',
+            image: './assets/images/logo/react.svg',
+            href: 'https://dvajs.com/',
+            desc: 'React and redux based, lightweight and elm-style framework.'
+          },
+          {
+            title: 'UmiJS',
+            image: './assets/images/logo/react.svg',
+            href: 'https://umijs.org/',
+            desc: '可插拔的企业级 react 应用框架。'
           }
         ]
       },
@@ -111,85 +147,108 @@ var data = [
             image: './assets/images/logo/angular.svg',
             href: 'https://angular.cn/',
             desc: '一套框架，多种平台；移动端 & 桌面端'
+          },
+          {
+            title: 'Ionic',
+            image: './assets/images/logo/ionic.png',
+            href: 'https://ionicframework.com/',
+            desc: 'One codebase. Any platform.'
+          },
+          {
+            title: 'Angular Material',
+            image: './assets/images/logo/angular.svg',
+            href: 'https://material.angular.cn/',
+            desc: 'Material Design 组件库 for Angular'
           }
         ]
       }
     ]
   },
   {
-    title: "常用推荐",
-    icon: "linecons-star",
+    title: '前端类库',
+    icon: 'linecons-star',
+    list: [
+      {
+        title: 'Redux',
+        image: './assets/images/logo/redux.svg',
+        href: 'https://redux.js.org/',
+        desc: 'A predictable state container for JavaScript apps.'
+      },
+      {
+        title: 'Redux 中文文档',
+        image: './assets/images/logo/redux.svg',
+        href: 'https://www.redux.org.cn/',
+        desc: 'A predictable state container for JavaScript apps.'
+      }
+    ]
+  },
+  {
+    title: '社区资讯',
+    icon: 'linecons-doc',
     list: []
   },
   {
-    title: "社区资讯",
-    icon: "linecons-doc",
-    list: []
+    title: '网上课堂',
+    icon: 'linecons-lightbulb',
+    list: [
+      
+    ]
   },
   {
-    title: "灵感采集",
-    icon: "linecons-lightbulb",
+    title: '素材资源',
+    icon: 'linecons-thumbs-up',
     children: [
       {
-        title: "发现产品",
-        list: []
+        title: '图表素材'
       },
       {
-        title: "界面灵感"
+        title: 'LOGO设计'
       },
       {
-        title: "网页灵感"
+        title: '平面素材'
       }
     ]
   },
   {
-    title: "素材资源",
-    icon: "linecons-thumbs-up",
+    title: '常用工具',
+    icon: 'linecons-diamond',
     children: [
       {
-        title: "图表素材"
+        title: '图形创意'
       },
       {
-        title: "LOGO设计"
+        title: '界面灵感'
       },
       {
-        title: "平面素材"
+        title: '网页灵感'
       }
     ]
   },
   {
-    title: "常用工具",
-    icon: "linecons-diamond",
+    title: '学习教程',
+    icon: 'linecons-pencil',
     children: [
       {
-        title: "图形创意"
+        title: '发现产品'
       },
       {
-        title: "界面灵感"
+        title: '界面灵感'
       },
       {
-        title: "网页灵感"
+        title: '网页灵感'
       }
     ]
   },
   {
-    title: "学习教程",
-    icon: "linecons-pencil",
-    children: [
+    title: 'FED团队',
+    icon: 'linecons-user',
+    list: [
       {
-        title: "发现产品"
+        title: 'AlloyTeam',
+        image: './assets/images/logo/alloyteam.png',
+        href: 'http://www.alloyteam.com/',
+        desc: '腾讯Web前端团队'
       },
-      {
-        title: "界面灵感"
-      },
-      {
-        title: "网页灵感"
-      }
     ]
-  },
-  {
-    title: "UED团队",
-    icon: "linecons-user",
-    list: []
   }
 ];
