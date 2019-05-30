@@ -347,7 +347,13 @@ var data = [
         image: './assets/images/logo/codepen.png',
         href: 'https://codepen.io/',
         desc: 'Online Code Editor and Front End Web Developer Community'
-      }
+      },
+      {
+        title: 'JS Bin',
+        image: './assets/images/logo/code.h5jun.com.png',
+        href: 'https://code.h5jun.com/',
+        desc: 'Collaborative JavaScript Debugging'
+      },
     ]
   },
   {
@@ -377,6 +383,18 @@ var data = [
         image: './assets/images/logo/zhangxinxu.ico',
         href: 'https://www.zhangxinxu.com/',
         desc: '张鑫旭的个人博客'
+      },
+      {
+        title: '阮一峰',
+        image: './assets/images/logo/ruanyifeng.ico',
+        href: 'http://www.ruanyifeng.com/blog/',
+        desc: '阮一峰的网络日志'
+      },
+      {
+        title: '廖雪峰',
+        image: './assets/images/logo/liaoxuefeng.ico',
+        href: 'https://www.liaoxuefeng.com/',
+        desc: '研究互联网产品和技术，提供原创中文精品教程'
       },
     ]
   },
