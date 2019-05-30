@@ -198,6 +198,12 @@ var data = [
         href: 'https://stackoverflow.com/',
         desc: 'Where Developers Learn, Share, & Build Careers'
       },
+      {
+        title: '吾爱破解',
+        image: './assets/images/logo/52pojie.ico',
+        href: 'https://www.52pojie.cn/',
+        desc: '吾爱破解论坛致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护'
+      },
     ]
   },
   {
@@ -239,30 +245,102 @@ var data = [
         image: './assets/images/logo/egghead.ico',
         href: 'https://egghead.io/',
         desc: '适用于Web开发人员的简短教学截屏视频教程'
+      },
+      {
+        title: 'DevOpen.Club',
+        image: './assets/images/logo/devopen.club.png',
+        href: 'https://devopen.club/',
+        desc: 'DevOpen.Club 坚持创作并分享原创高质量的软件开发视频教程'
       }
     ]
   },
   {
-    title: '刷题网站',
+    title: '算法刷题',
     icon: 'linecons-thumbs-up',
     list: [
       {
-        title: '牛客网',
-        image: './assets/images/logo/nowcoder.png',
-        href: 'https://www.nowcoder.com/',
-        desc: '互联网求职神器和备考学习平台'
+        title: 'LeetCode',
+        image: './assets/images/logo/leetcode-cn.png',
+        href: 'https://leetcode-cn.com/',
+        desc: '力扣 (LeetCode) 中国官网 - 全球极客挚爱的技术成长平台'
       },
       {
         title: 'FreeCodeCamp',
         image: './assets/images/logo/freecodecamp.png',
         href: 'https://www.freecodecamp.cn/',
         desc: 'FreeCodeCamp中文社区'
-      }
+      },
+      {
+        title: '牛客网',
+        image: './assets/images/logo/nowcoder.png',
+        href: 'https://www.nowcoder.com/',
+        desc: '互联网求职神器和备考学习平台'
+      },
+    ]
+  },
+  {
+    title: 'API速查',
+    icon: 'linecons-user',
+    list: [
+      {
+        title: 'Devhints',
+        image: '',
+        href: 'https://devhints.io/',
+        desc: 'DR for developer documentation'
+      },
+      {
+        title: 'SASS',
+        image: './assets/images/logo/sass.png',
+        href: 'https://devhints.io/sass',
+        desc: 'SASS api 速查'
+      },
+      {
+        title: 'ES6',
+        image: '',
+        href: 'https://devhints.io/es6',
+        desc: 'ES6 api 速查'
+      },
+      {
+        title: 'REACT',
+        image: './assets/images/logo/react.svg',
+        href: 'https://devhints.io/react',
+        desc: 'REACT api 速查'
+      },
+      {
+        title: 'Vue',
+        image: './assets/images/logo/vue.png',
+        href: 'https://marozed.ma/vue-cheatsheet/',
+        desc: 'Vue api 速查'
+      },
+      {
+        title: 'Vuex',
+        image: './assets/images/logo/vue.png',
+        href: 'https://vuejs-tips.github.io/vuex-cheatsheet/',
+        desc: 'Vuex api 速查'
+      },
+      {
+        title: 'Flexbox',
+        image: '',
+        href: 'https://yoksel.github.io/flex-cheatsheet/',
+        desc: 'Flexbox api 速查'
+      },
+      {
+        title: 'JavaScript Regex',
+        image: '',
+        href: 'https://www.debuggex.com/cheatsheet/regex/javascript',
+        desc: 'JavaScript Regex api 速查'
+      },
+      {
+        title: 'GraphQL',
+        image: './assets/images/logo/graphql.svg',
+        href: 'https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png',
+        desc: 'GraphQL api 速查'
+      },
     ]
   },
   {
     title: '在线编码',
-    icon: 'linecons-thumbs-up',
+    icon: 'linecons-pencil',
     list: [
       {
         title: 'CodePen',
@@ -273,25 +351,38 @@ var data = [
     ]
   },
   {
-    title: '常用工具',
+    title: '前端文档',
     icon: 'linecons-diamond',
-    list: []
+    list: [
+      {
+        title: '现代 JavaScript 教程',
+        image: './assets/images/logo/javascript.info.png',
+        href: 'https://zh.javascript.info/',
+        desc: '从基础知识到高阶主题，只需既简单又详细的解释。'
+      },
+      {
+        title: 'Web 开发技术 | MDN',
+        image: './assets/images/logo/mdn.png',
+        href: 'https://developer.mozilla.org/zh-CN/docs/Web',
+        desc: 'MDN Web 文档'
+      },
+    ]
   },
   {
-    title: '学习教程',
-    icon: 'linecons-pencil',
-    list: []
-  },
-  {
-    title: 'FED团队',
+    title: '大牛博客',
     icon: 'linecons-user',
     list: [
       {
-        title: 'AlloyTeam',
-        image: './assets/images/logo/alloyteam.png',
-        href: 'http://www.alloyteam.com/',
-        desc: '腾讯Web前端团队'
+        title: '张鑫旭',
+        image: './assets/images/logo/zhangxinxu.ico',
+        href: 'https://www.zhangxinxu.com/',
+        desc: '张鑫旭的个人博客'
       },
     ]
-  }
+  },
+  {
+    title: '求职招聘',
+    icon: 'linecons-user',
+    list: []
+  },
 ];
