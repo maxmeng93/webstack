@@ -185,59 +185,102 @@ var data = [
   {
     title: '社区资讯',
     icon: 'linecons-doc',
-    list: []
+    list: [
+      {
+        title: 'segmentfault 思否',
+        image: './assets/images/logo/segmentfault.webp',
+        href: 'https://segmentfault.com/',
+        desc: '为开发者提供问答、学习与交流编程知识的平台，创造属于开发者的时代！'
+      },
+      {
+        title: 'Stack Overflow',
+        image: './assets/images/logo/stackoverflow.png',
+        href: 'https://stackoverflow.com/',
+        desc: 'Where Developers Learn, Share, & Build Careers'
+      },
+    ]
   },
   {
     title: '网上课堂',
     icon: 'linecons-lightbulb',
     list: [
-      
+      {
+        title: '中国大学MOOC(慕课)',
+        image: './assets/images/logo/icourse163.png',
+        href: 'https://www.icourse163.org/',
+        desc: '国家精品课程在线学习平台'
+      },
+      {
+        title: '慕课网',
+        image: './assets/images/logo/imooc.png',
+        href: 'https://www.imooc.com/',
+        desc: '程序员的梦工厂'
+      },
+      {
+        title: '网易云课堂',
+        image: './assets/images/logo/study163.png',
+        href: 'https://study.163.com/',
+        desc: '一个专注职业技能提升的在线学习平台'
+      },
+      {
+        title: '腾讯云大学',
+        image: './assets/images/logo/cloud.tencent.ico',
+        href: 'https://cloud.tencent.com/edu/',
+        desc: '服务开发者的专业云技术学习平台'
+      },
+      {
+        title: '百度前端技术学院',
+        image: './assets/images/logo/ife.baidu.ico',
+        href: 'http://ife.baidu.com/',
+        desc: '面向大学生的前端技术学习平台'
+      },
+      {
+        title: 'egghead.io',
+        image: './assets/images/logo/egghead.ico',
+        href: 'https://egghead.io/',
+        desc: '适用于Web开发人员的简短教学截屏视频教程'
+      }
     ]
   },
   {
-    title: '素材资源',
+    title: '刷题网站',
     icon: 'linecons-thumbs-up',
-    children: [
+    list: [
       {
-        title: '图表素材'
+        title: '牛客网',
+        image: './assets/images/logo/nowcoder.png',
+        href: 'https://www.nowcoder.com/',
+        desc: '互联网求职神器和备考学习平台'
       },
       {
-        title: 'LOGO设计'
-      },
+        title: 'FreeCodeCamp',
+        image: './assets/images/logo/freecodecamp.png',
+        href: 'https://www.freecodecamp.cn/',
+        desc: 'FreeCodeCamp中文社区'
+      }
+    ]
+  },
+  {
+    title: '在线编码',
+    icon: 'linecons-thumbs-up',
+    list: [
       {
-        title: '平面素材'
+        title: 'CodePen',
+        image: './assets/images/logo/codepen.png',
+        href: 'https://codepen.io/',
+        desc: 'Online Code Editor and Front End Web Developer Community'
       }
     ]
   },
   {
     title: '常用工具',
     icon: 'linecons-diamond',
-    children: [
-      {
-        title: '图形创意'
-      },
-      {
-        title: '界面灵感'
-      },
-      {
-        title: '网页灵感'
-      }
-    ]
+    list: []
   },
   {
     title: '学习教程',
     icon: 'linecons-pencil',
-    children: [
-      {
-        title: '发现产品'
-      },
-      {
-        title: '界面灵感'
-      },
-      {
-        title: '网页灵感'
-      }
-    ]
+    list: []
   },
   {
     title: 'FED团队',
