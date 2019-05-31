@@ -4,6 +4,53 @@ var data = [
     icon: 'linecons-star',
     children: [
       {
+        title: 'React',
+        list: [
+          {
+            title: 'React 文档',
+            image: './assets/images/logo/react.svg',
+            href: 'https://zh-hans.reactjs.org/',
+            desc: '用于构建用户界面的 JavaScript 库'
+          },
+          {
+            title: 'Ant Design React',
+            image: './assets/images/logo/Ant Design React.svg',
+            href: 'https://ant.design/',
+            desc: '服务于企业级产品的设计体系，基于确定和自然的设计价值观上的模块化解决方案，让设计者和开发者专注于更好的用户体验。'
+          },
+          {
+            title: 'Nerv',
+            image: './assets/images/logo/nerv.png',
+            href: 'https://nerv.aotu.io/',
+            desc: '一个基于 Virtual DOM 的类 React 组件框架'
+          },
+          {
+            title: 'React Router',
+            image: './assets/images/logo/react_router.png',
+            href: 'https://reacttraining.com/react-router/',
+            desc: 'React Router is a collection of navigational components that compose declaratively with your application.'
+          },
+          {
+            title: 'Next.js',
+            image: './assets/images/logo/nextjs.png',
+            href: 'https://nextjs.org/',
+            desc: 'The React Framework'
+          },
+          {
+            title: 'DvaJS',
+            image: './assets/images/logo/react.svg',
+            href: 'https://dvajs.com/',
+            desc: 'React and redux based, lightweight and elm-style framework.'
+          },
+          {
+            title: 'UmiJS',
+            image: './assets/images/logo/react.svg',
+            href: 'https://umijs.org/',
+            desc: '可插拔的企业级 react 应用框架。'
+          }
+        ]
+      },
+      {
         title: 'Vue',
         list: [
           {
@@ -90,53 +137,6 @@ var data = [
             href: 'https://vuetifyjs.com/zh-Hans/',
             desc: '让Vue和Material Design的强大力量在开发上助您一臂之力'
           },
-        ]
-      },
-      {
-        title: 'React',
-        list: [
-          {
-            title: 'React 文档',
-            image: './assets/images/logo/react.svg',
-            href: 'https://zh-hans.reactjs.org/',
-            desc: '用于构建用户界面的 JavaScript 库'
-          },
-          {
-            title: 'Ant Design React',
-            image: './assets/images/logo/Ant Design React.svg',
-            href: 'https://ant.design/',
-            desc: '服务于企业级产品的设计体系，基于确定和自然的设计价值观上的模块化解决方案，让设计者和开发者专注于更好的用户体验。'
-          },
-          {
-            title: 'Nerv',
-            image: './assets/images/logo/nerv.png',
-            href: 'https://nerv.aotu.io/',
-            desc: '一个基于 Virtual DOM 的类 React 组件框架'
-          },
-          {
-            title: 'React Router',
-            image: './assets/images/logo/react_router.png',
-            href: 'https://reacttraining.com/react-router/',
-            desc: 'React Router is a collection of navigational components that compose declaratively with your application.'
-          },
-          {
-            title: 'Next.js',
-            image: './assets/images/logo/nextjs.png',
-            href: 'https://nextjs.org/',
-            desc: 'The React Framework'
-          },
-          {
-            title: 'DvaJS',
-            image: './assets/images/logo/react.svg',
-            href: 'https://dvajs.com/',
-            desc: 'React and redux based, lightweight and elm-style framework.'
-          },
-          {
-            title: 'UmiJS',
-            image: './assets/images/logo/react.svg',
-            href: 'https://umijs.org/',
-            desc: '可插拔的企业级 react 应用框架。'
-          }
         ]
       },
       {
