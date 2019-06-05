@@ -199,6 +199,12 @@ var data = [
         desc: 'Where Developers Learn, Share, & Build Careers'
       },
       {
+        title: 'GITTER',
+        image: './assets/images/logo/gitter.ico',
+        href: 'https://gitter.im/',
+        desc: 'Gitter 是一个聊天和网络平台，通过消息、内容和发现，帮助管理、发展和连接社区。'
+      },
+      {
         title: '吾爱破解',
         image: './assets/images/logo/52pojie.ico',
         href: 'https://www.52pojie.cn/',
@@ -371,6 +377,12 @@ var data = [
         image: './assets/images/logo/mdn.png',
         href: 'https://developer.mozilla.org/zh-CN/docs/Web',
         desc: 'MDN Web 文档'
+      },
+      {
+        title: 'ECMAScript 6 入门',
+        image: './assets/images/logo/ecmascript.ico',
+        href: 'http://es6.ruanyifeng.com/',
+        desc: '《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。'
       },
     ]
   },
