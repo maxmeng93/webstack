@@ -165,6 +165,88 @@ var data = [
     ]
   },
   {
+    title: '查漏补缺',
+    icon: 'linecons-thumbs-up',
+    children: [
+      {
+        title: '前端基础',
+        list: [
+          {
+            title: "《壹题》前端100问",
+            href: "https://github.com/Advanced-Frontend/Daily-Interview-Question",
+            desc: "工作日每天一道大厂前端面试题"
+          }, {
+            title: '每日三问',
+            href: 'https://github.com/haizlin/fe-interview',
+            desc: '前端面试每日 3+1'
+          }, {
+            title: '前端小测',
+            href: 'https://github.com/zhangxinxu/quiz',
+            desc: '张鑫旭的前端小测，每周六B站直播答疑'
+          }, {
+            title: '前端开发清单',
+            href: 'https://github.com/JohnsenZhou/Front-End-Checklist',
+            desc: '前端开发清单是一份在站点/HTML页面发布到生产环境之前需要测试的所有元素的详尽列表'
+          }, {
+            title: 'iCSS',
+            href: 'https://github.com/chokcoco/iCSS',
+            desc: 'CSS 奇技淫巧，在这里，都有。'
+          }, {
+            title: 'css-layout',
+            href: 'https://github.com/Sweet-KK/css-layout',
+            desc: '各种页面常见布局+知名网站实例分析+相关阅读推荐'
+          }
+        ]
+      }, {
+        title: '算法进阶',
+        list: [
+          {
+            title: 'LeetCode',
+            image: './assets/images/logo/leetcode-cn.png',
+            href: 'https://leetcode-cn.com/',
+            desc: '力扣 (LeetCode) 中国官网 - 全球极客挚爱的技术成长平台'
+          },
+          {
+            title: 'FreeCodeCamp',
+            image: './assets/images/logo/freecodecamp.png',
+            href: 'https://www.freecodecamp.cn/',
+            desc: 'FreeCodeCamp中文社区'
+          },
+          {
+            title: '牛客网',
+            image: './assets/images/logo/nowcoder.png',
+            href: 'https://www.nowcoder.com/',
+            desc: '互联网求职神器和备考学习平台'
+          },
+        ]
+      }
+    ]
+  },
+  {
+    title: '前端文档',
+    icon: 'linecons-diamond',
+    list: [
+      {
+        title: '现代 JavaScript 教程',
+        image: './assets/images/logo/javascript.info.png',
+        href: 'https://zh.javascript.info/',
+        desc: '从基础知识到高阶主题，只需既简单又详细的解释。'
+      },
+      {
+        title: 'Web 开发技术 | MDN',
+        image: './assets/images/logo/mdn.png',
+        href: 'https://developer.mozilla.org/zh-CN/docs/Web',
+        desc: 'MDN Web 文档'
+      },
+      {
+        title: 'ECMAScript 6 入门',
+        image: './assets/images/logo/ecmascript.ico',
+        href: 'http://es6.ruanyifeng.com/',
+        desc: '《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。'
+      },
+    ]
+  },
+  {
     title: '前端类库',
     icon: 'linecons-star',
     list: [
@@ -261,90 +343,6 @@ var data = [
     ]
   },
   {
-    title: '算法刷题',
-    icon: 'linecons-thumbs-up',
-    list: [
-      {
-        title: 'LeetCode',
-        image: './assets/images/logo/leetcode-cn.png',
-        href: 'https://leetcode-cn.com/',
-        desc: '力扣 (LeetCode) 中国官网 - 全球极客挚爱的技术成长平台'
-      },
-      {
-        title: 'FreeCodeCamp',
-        image: './assets/images/logo/freecodecamp.png',
-        href: 'https://www.freecodecamp.cn/',
-        desc: 'FreeCodeCamp中文社区'
-      },
-      {
-        title: '牛客网',
-        image: './assets/images/logo/nowcoder.png',
-        href: 'https://www.nowcoder.com/',
-        desc: '互联网求职神器和备考学习平台'
-      },
-    ]
-  },
-  {
-    title: 'API速查',
-    icon: 'linecons-user',
-    list: [
-      {
-        title: 'Devhints',
-        image: '',
-        href: 'https://devhints.io/',
-        desc: 'DR for developer documentation'
-      },
-      {
-        title: 'SASS',
-        image: './assets/images/logo/sass.png',
-        href: 'https://devhints.io/sass',
-        desc: 'SASS api 速查'
-      },
-      {
-        title: 'ES6',
-        image: '',
-        href: 'https://devhints.io/es6',
-        desc: 'ES6 api 速查'
-      },
-      {
-        title: 'REACT',
-        image: './assets/images/logo/react.svg',
-        href: 'https://devhints.io/react',
-        desc: 'REACT api 速查'
-      },
-      {
-        title: 'Vue',
-        image: './assets/images/logo/vue.png',
-        href: 'https://marozed.ma/vue-cheatsheet/',
-        desc: 'Vue api 速查'
-      },
-      {
-        title: 'Vuex',
-        image: './assets/images/logo/vue.png',
-        href: 'https://vuejs-tips.github.io/vuex-cheatsheet/',
-        desc: 'Vuex api 速查'
-      },
-      {
-        title: 'Flexbox',
-        image: '',
-        href: 'https://yoksel.github.io/flex-cheatsheet/',
-        desc: 'Flexbox api 速查'
-      },
-      {
-        title: 'JavaScript Regex',
-        image: '',
-        href: 'https://www.debuggex.com/cheatsheet/regex/javascript',
-        desc: 'JavaScript Regex api 速查'
-      },
-      {
-        title: 'GraphQL',
-        image: './assets/images/logo/graphql.svg',
-        href: 'https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png',
-        desc: 'GraphQL api 速查'
-      },
-    ]
-  },
-  {
     title: '在线编码',
     icon: 'linecons-pencil',
     list: [
@@ -359,30 +357,6 @@ var data = [
         image: './assets/images/logo/code.h5jun.com.png',
         href: 'https://code.h5jun.com/',
         desc: 'Collaborative JavaScript Debugging'
-      },
-    ]
-  },
-  {
-    title: '前端文档',
-    icon: 'linecons-diamond',
-    list: [
-      {
-        title: '现代 JavaScript 教程',
-        image: './assets/images/logo/javascript.info.png',
-        href: 'https://zh.javascript.info/',
-        desc: '从基础知识到高阶主题，只需既简单又详细的解释。'
-      },
-      {
-        title: 'Web 开发技术 | MDN',
-        image: './assets/images/logo/mdn.png',
-        href: 'https://developer.mozilla.org/zh-CN/docs/Web',
-        desc: 'MDN Web 文档'
-      },
-      {
-        title: 'ECMAScript 6 入门',
-        image: './assets/images/logo/ecmascript.ico',
-        href: 'http://es6.ruanyifeng.com/',
-        desc: '《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。'
       },
     ]
   },
@@ -407,6 +381,27 @@ var data = [
         image: './assets/images/logo/liaoxuefeng.ico',
         href: 'https://www.liaoxuefeng.com/',
         desc: '研究互联网产品和技术，提供原创中文精品教程'
+      },
+      {
+        title: '冴羽',
+        href: 'https://github.com/mqyqingfeng/Blog',
+        desc: '冴羽的博客，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。'
+      }
+    ]
+  },
+  {
+    title: '其他',
+    icon: 'linecons-user',
+    list: [
+      {
+        title: '英语进阶指南',
+        href: 'https://github.com/byoungd/English-level-up-tips-for-Chinese',
+        desc: '可能是让你受益匪浅的英语进阶指南'
+      }, {
+        title: 'API速查',
+        image: '',
+        href: 'https://devhints.io/',
+        desc: 'DR for developer documentation'
       },
     ]
   },
