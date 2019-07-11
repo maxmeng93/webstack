@@ -1,5 +1,29 @@
 var data = [
   {
+    title: '前端文档',
+    icon: 'linecons-diamond',
+    list: [
+      {
+        title: '现代 JavaScript 教程',
+        image: './assets/images/logo/javascript.info.png',
+        href: 'https://zh.javascript.info/',
+        desc: '从基础知识到高阶主题，只需既简单又详细的解释。'
+      },
+      {
+        title: 'Web 开发技术 | MDN',
+        image: './assets/images/logo/mdn.png',
+        href: 'https://developer.mozilla.org/zh-CN/docs/Web',
+        desc: 'MDN Web 文档'
+      },
+      {
+        title: 'ECMAScript 6 入门',
+        image: './assets/images/logo/ecmascript.ico',
+        href: 'http://es6.ruanyifeng.com/',
+        desc: '《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。'
+      },
+    ]
+  },
+  {
     title: '查漏补缺',
     icon: 'linecons-thumbs-up',
     children: [
@@ -55,30 +79,6 @@ var data = [
           },
         ]
       }
-    ]
-  },
-  {
-    title: '前端文档',
-    icon: 'linecons-diamond',
-    list: [
-      {
-        title: '现代 JavaScript 教程',
-        image: './assets/images/logo/javascript.info.png',
-        href: 'https://zh.javascript.info/',
-        desc: '从基础知识到高阶主题，只需既简单又详细的解释。'
-      },
-      {
-        title: 'Web 开发技术 | MDN',
-        image: './assets/images/logo/mdn.png',
-        href: 'https://developer.mozilla.org/zh-CN/docs/Web',
-        desc: 'MDN Web 文档'
-      },
-      {
-        title: 'ECMAScript 6 入门',
-        image: './assets/images/logo/ecmascript.ico',
-        href: 'http://es6.ruanyifeng.com/',
-        desc: '《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。'
-      },
     ]
   },
   {
