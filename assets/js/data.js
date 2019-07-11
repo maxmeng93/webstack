@@ -1,5 +1,87 @@
 var data = [
   {
+    title: '查漏补缺',
+    icon: 'linecons-thumbs-up',
+    children: [
+      {
+        title: '前端基础',
+        list: [
+          {
+            title: "《壹题》前端100问",
+            href: "https://github.com/Advanced-Frontend/Daily-Interview-Question",
+            desc: "工作日每天一道大厂前端面试题"
+          }, {
+            title: '每日三问',
+            href: 'https://github.com/haizlin/fe-interview',
+            desc: '前端面试每日 3+1'
+          }, {
+            title: '前端小测',
+            href: 'https://github.com/zhangxinxu/quiz',
+            desc: '张鑫旭的前端小测，每周六B站直播答疑'
+          }, {
+            title: '前端开发清单',
+            href: 'https://github.com/JohnsenZhou/Front-End-Checklist',
+            desc: '前端开发清单是一份在站点/HTML页面发布到生产环境之前需要测试的所有元素的详尽列表'
+          }, {
+            title: 'iCSS',
+            href: 'https://github.com/chokcoco/iCSS',
+            desc: 'CSS 奇技淫巧，在这里，都有。'
+          }, {
+            title: 'css-layout',
+            href: 'https://github.com/Sweet-KK/css-layout',
+            desc: '各种页面常见布局+知名网站实例分析+相关阅读推荐'
+          }
+        ]
+      }, {
+        title: '算法进阶',
+        list: [
+          {
+            title: 'LeetCode',
+            image: './assets/images/logo/leetcode-cn.png',
+            href: 'https://leetcode-cn.com/',
+            desc: '力扣 (LeetCode) 中国官网 - 全球极客挚爱的技术成长平台'
+          },
+          {
+            title: 'FreeCodeCamp',
+            image: './assets/images/logo/freecodecamp.png',
+            href: 'https://www.freecodecamp.cn/',
+            desc: 'FreeCodeCamp中文社区'
+          },
+          {
+            title: '牛客网',
+            image: './assets/images/logo/nowcoder.png',
+            href: 'https://www.nowcoder.com/',
+            desc: '互联网求职神器和备考学习平台'
+          },
+        ]
+      }
+    ]
+  },
+  {
+    title: '前端文档',
+    icon: 'linecons-diamond',
+    list: [
+      {
+        title: '现代 JavaScript 教程',
+        image: './assets/images/logo/javascript.info.png',
+        href: 'https://zh.javascript.info/',
+        desc: '从基础知识到高阶主题，只需既简单又详细的解释。'
+      },
+      {
+        title: 'Web 开发技术 | MDN',
+        image: './assets/images/logo/mdn.png',
+        href: 'https://developer.mozilla.org/zh-CN/docs/Web',
+        desc: 'MDN Web 文档'
+      },
+      {
+        title: 'ECMAScript 6 入门',
+        image: './assets/images/logo/ecmascript.ico',
+        href: 'http://es6.ruanyifeng.com/',
+        desc: '《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。'
+      },
+    ]
+  },
+  {
     title: '前端框架',
     icon: 'linecons-star',
     children: [
@@ -162,88 +244,6 @@ var data = [
           }
         ]
       }
-    ]
-  },
-  {
-    title: '查漏补缺',
-    icon: 'linecons-thumbs-up',
-    children: [
-      {
-        title: '前端基础',
-        list: [
-          {
-            title: "《壹题》前端100问",
-            href: "https://github.com/Advanced-Frontend/Daily-Interview-Question",
-            desc: "工作日每天一道大厂前端面试题"
-          }, {
-            title: '每日三问',
-            href: 'https://github.com/haizlin/fe-interview',
-            desc: '前端面试每日 3+1'
-          }, {
-            title: '前端小测',
-            href: 'https://github.com/zhangxinxu/quiz',
-            desc: '张鑫旭的前端小测，每周六B站直播答疑'
-          }, {
-            title: '前端开发清单',
-            href: 'https://github.com/JohnsenZhou/Front-End-Checklist',
-            desc: '前端开发清单是一份在站点/HTML页面发布到生产环境之前需要测试的所有元素的详尽列表'
-          }, {
-            title: 'iCSS',
-            href: 'https://github.com/chokcoco/iCSS',
-            desc: 'CSS 奇技淫巧，在这里，都有。'
-          }, {
-            title: 'css-layout',
-            href: 'https://github.com/Sweet-KK/css-layout',
-            desc: '各种页面常见布局+知名网站实例分析+相关阅读推荐'
-          }
-        ]
-      }, {
-        title: '算法进阶',
-        list: [
-          {
-            title: 'LeetCode',
-            image: './assets/images/logo/leetcode-cn.png',
-            href: 'https://leetcode-cn.com/',
-            desc: '力扣 (LeetCode) 中国官网 - 全球极客挚爱的技术成长平台'
-          },
-          {
-            title: 'FreeCodeCamp',
-            image: './assets/images/logo/freecodecamp.png',
-            href: 'https://www.freecodecamp.cn/',
-            desc: 'FreeCodeCamp中文社区'
-          },
-          {
-            title: '牛客网',
-            image: './assets/images/logo/nowcoder.png',
-            href: 'https://www.nowcoder.com/',
-            desc: '互联网求职神器和备考学习平台'
-          },
-        ]
-      }
-    ]
-  },
-  {
-    title: '前端文档',
-    icon: 'linecons-diamond',
-    list: [
-      {
-        title: '现代 JavaScript 教程',
-        image: './assets/images/logo/javascript.info.png',
-        href: 'https://zh.javascript.info/',
-        desc: '从基础知识到高阶主题，只需既简单又详细的解释。'
-      },
-      {
-        title: 'Web 开发技术 | MDN',
-        image: './assets/images/logo/mdn.png',
-        href: 'https://developer.mozilla.org/zh-CN/docs/Web',
-        desc: 'MDN Web 文档'
-      },
-      {
-        title: 'ECMAScript 6 入门',
-        image: './assets/images/logo/ecmascript.ico',
-        href: 'http://es6.ruanyifeng.com/',
-        desc: '《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。'
-      },
     ]
   },
   {
