@@ -406,7 +406,7 @@ var data = [
     ]
   },
   {
-    title: '求职招聘',
+    title: '工作',
     icon: 'linecons-user',
     list: []
   },
