@@ -410,4 +410,21 @@ var data = [
     icon: 'linecons-user',
     list: []
   },
+  {
+    title: '视频资源',
+    icon: 'linecons-user',
+    list: [
+      {
+        title: '前端视频',
+        image: '',
+        href: 'https://pan.baidu.com/s/160993QFb7t7oWBiGy-FZ1Q',
+        desc: '此资源由网友分享整理，本网站只做收录，如有侵权请联系删除'
+      }, {
+        title: '前端视频',
+        image: '',
+        href: 'https://pan.baidu.com/s/121-5Ed80CcYvg21V4PiWuQ',
+        desc: '此资源由网友分享整理，本网站只做收录，如有侵权请联系删除（提取密码：3Cw2）'
+      }
+    ]
+  }
 ];
