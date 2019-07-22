@@ -1,49 +1,53 @@
 var data = [
   {
-    title: '前端文档',
+    title: '前端资源',
     icon: 'linecons-diamond',
-    list: [
+    children: [
       {
-        title: '现代 JavaScript 教程',
-        image: './assets/images/logo/javascript.info.png',
-        href: 'https://zh.javascript.info/',
-        desc: '从基础知识到高阶主题，只需既简单又详细的解释。'
+        title: '前端文档',
+        list: [
+          {
+            title: '现代 JavaScript 教程',
+            image: './assets/images/logo/javascript.info.png',
+            href: 'https://zh.javascript.info/',
+            desc: '从基础知识到高阶主题，只需既简单又详细的解释。'
+          },
+          {
+            title: 'Web 开发技术 | MDN',
+            image: './assets/images/logo/mdn.png',
+            href: 'https://developer.mozilla.org/zh-CN/docs/Web',
+            desc: 'MDN Web 文档'
+          },
+          {
+            title: 'ECMAScript 6 入门',
+            image: './assets/images/logo/ecmascript.ico',
+            href: 'http://es6.ruanyifeng.com/',
+            desc: '《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。'
+          },
+        ]
       },
       {
-        title: 'Web 开发技术 | MDN',
-        image: './assets/images/logo/mdn.png',
-        href: 'https://developer.mozilla.org/zh-CN/docs/Web',
-        desc: 'MDN Web 文档'
-      },
-      {
-        title: 'ECMAScript 6 入门',
-        image: './assets/images/logo/ecmascript.ico',
-        href: 'http://es6.ruanyifeng.com/',
-        desc: '《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。'
-      },
-    ]
-  },
-  {
-    title: '前端工具',
-    icon: 'linecons-diamond',
-    list: [
-      {
-        title: 'Can I use',
-        image: './assets/images/logo/caniuse.png',
-        href: 'https://caniuse.com/',
-        desc: '浏览器兼容性检查工具'
-      },
-      {
-        title: 'Regexper',
-        image: './assets/images/logo/regexper.ico',
-        href: 'https://regexper.com/',
-        desc: 'Regular expression visualizer using railroad diagrams. 正则表达式可视化'
-      },
-      {
-        title: 'Travis CI',
-        image: './assets/images/logo/travis-ci.png',
-        href: 'https://travis-ci.org/',
-        desc: 'Test and Deploy Your Code with Confidence. 持续集成'
+        title: '前端工具',
+        list: [
+          {
+            title: 'Can I use',
+            image: './assets/images/logo/caniuse.png',
+            href: 'https://caniuse.com/',
+            desc: '浏览器兼容性检查工具'
+          },
+          {
+            title: 'Regexper',
+            image: './assets/images/logo/regexper.ico',
+            href: 'https://regexper.com/',
+            desc: 'Regular expression visualizer using railroad diagrams. 正则表达式可视化'
+          },
+          {
+            title: 'Travis CI',
+            image: './assets/images/logo/travis-ci.png',
+            href: 'https://travis-ci.org/',
+            desc: 'Test and Deploy Your Code with Confidence. 持续集成'
+          }
+        ]
       }
     ]
   },
@@ -271,24 +275,6 @@ var data = [
     ]
   },
   {
-    title: '前端类库',
-    icon: 'linecons-star',
-    list: [
-      {
-        title: 'Redux',
-        image: './assets/images/logo/redux.svg',
-        href: 'https://redux.js.org/',
-        desc: 'A predictable state container for JavaScript apps.'
-      },
-      {
-        title: 'Redux 中文文档',
-        image: './assets/images/logo/redux.svg',
-        href: 'https://www.redux.org.cn/',
-        desc: 'A predictable state container for JavaScript apps.'
-      }
-    ]
-  },
-  {
     title: '社区资讯',
     icon: 'linecons-doc',
     list: [
@@ -426,22 +412,6 @@ var data = [
     ]
   },
   {
-    title: '其他',
-    icon: 'linecons-user',
-    list: [
-      {
-        title: '英语进阶指南',
-        href: 'https://github.com/byoungd/English-level-up-tips-for-Chinese',
-        desc: '可能是让你受益匪浅的英语进阶指南'
-      }, {
-        title: 'API速查',
-        image: '',
-        href: 'https://devhints.io/',
-        desc: 'DR for developer documentation'
-      },
-    ]
-  },
-  {
     title: '兼职平台',
     icon: 'linecons-user',
     list: [
@@ -472,20 +442,19 @@ var data = [
     ]
   },
   {
-    title: '视频资源',
+    title: '其他',
     icon: 'linecons-user',
     list: [
       {
-        title: '前端视频',
-        image: '',
-        href: 'https://pan.baidu.com/s/160993QFb7t7oWBiGy-FZ1Q',
-        desc: '此资源由网友分享整理，本网站只做收录，如有侵权请联系删除'
+        title: '英语进阶指南',
+        href: 'https://github.com/byoungd/English-level-up-tips-for-Chinese',
+        desc: '可能是让你受益匪浅的英语进阶指南'
       }, {
-        title: '前端视频',
+        title: 'API速查',
         image: '',
-        href: 'https://pan.baidu.com/s/121-5Ed80CcYvg21V4PiWuQ',
-        desc: '此资源由网友分享整理，本网站只做收录，如有侵权请联系删除（提取密码：3Cw2）'
-      }
+        href: 'https://devhints.io/',
+        desc: 'DR for developer documentation'
+      },
     ]
   }
 ];
