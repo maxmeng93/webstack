@@ -21,11 +21,29 @@ var data = [
         href: 'http://es6.ruanyifeng.com/',
         desc: '《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。'
       },
+    ]
+  },
+  {
+    title: '前端工具',
+    icon: 'linecons-diamond',
+    list: [
       {
         title: 'Can I use',
         image: './assets/images/logo/caniuse.png',
         href: 'https://caniuse.com/',
         desc: '浏览器兼容性检查工具'
+      },
+      {
+        title: 'Regexper',
+        image: './assets/images/logo/regexper.ico',
+        href: 'https://regexper.com/',
+        desc: 'Regular expression visualizer using railroad diagrams. 正则表达式可视化'
+      },
+      {
+        title: 'Travis CI',
+        image: './assets/images/logo/travis-ci.png',
+        href: 'https://travis-ci.org/',
+        desc: 'Test and Deploy Your Code with Confidence. 持续集成'
       }
     ]
   },
