@@ -275,6 +275,12 @@ var data = [
     icon: 'linecons-doc',
     list: [
       {
+        title: 'GitHub',
+        image: './assets/images/logo/github.png',
+        href: 'https://github.com',
+        desc: 'GitHub is where people build software.'
+      },
+      {
         title: 'segmentfault 思否',
         image: './assets/images/logo/segmentfault.webp',
         href: 'https://segmentfault.com/',
