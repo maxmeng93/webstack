@@ -364,6 +364,12 @@ var data = [
         href: 'https://code.h5jun.com/',
         desc: 'Collaborative JavaScript Debugging'
       },
+      {
+        title: 'JSRUN',
+        image: './assets/images/logo/jsrun.ico',
+        href: 'http://jsrun.pro/',
+        desc: '功能强大的在线编辑器'
+      }
     ]
   },
   {
