@@ -368,6 +368,12 @@ var data = [
     icon: 'linecons-pencil',
     list: [
       {
+        title: 'CodeSandbox',
+        image: 'https://codesandbox.io/favicon.ico',
+        href: 'https://codesandbox.io',
+        desc: 'CodeSandbox is an online editor tailored for web applications.'
+      },
+      {
         title: 'CodePen',
         image: './assets/images/logo/codepen.png',
         href: 'https://codepen.io/',
