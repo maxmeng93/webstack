@@ -105,6 +105,11 @@ var data = [
             href: 'https://www.nowcoder.com/',
             desc: '互联网求职神器和备考学习平台'
           },
+          {
+            title: 'leetcode题解',
+            href: 'https://github.com/azl397985856/leetcode',
+            desc: 'leetcode题解，记录自己的leetcode解题之路。'
+          }
         ]
       }
     ]
