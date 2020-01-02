@@ -8,6 +8,8 @@ module.exports = override(
   }),
   addLessLoader({
     javascriptEnabled: true,
-    modifyVars: { '@primary-color': '#1DA57A' },
+    modifyVars: { // 自定义主题样式 替换antd less变量
+      // '@primary-color': '#1DA57A',
+    },
   }),
 );
