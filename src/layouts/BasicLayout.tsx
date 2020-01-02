@@ -45,21 +45,20 @@ class BasicLayout extends React.Component {
           </Menu>
         </Sider>
         <Layout>
-          <Header className={styles.siteLayoutBackground} style={{ padding: 0 }}>
+          <Header className={styles.header} style={{ padding: 0 }}>
             {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
               className: styles.trigger,
               onClick: this.toggle,
             })}
           </Header>
           <Content
-            className={styles.siteLayoutBackground}
             style={{
               margin: '24px 16px',
               padding: 24,
               minHeight: 280,
             }}
           >
-            Content
+            {this.props.children}
           </Content>
           <Footer style={{ textAlign: 'center' }}>©2019 Created by <a href="https://www.maxmeng.top/">MaxMeng</a></Footer>
         </Layout>
