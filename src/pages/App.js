@@ -4,24 +4,11 @@ import { AlignRightOutlined } from '@ant-design/icons';
 import BasicLayout from '../layouts/BasicLayout';
 import styles from './App.module.css';
 
-import fe from '../assets/FE';
-
-interface ItemList {
-  title: string;
-  icon: string;
-  list: Item[];
-}
-
-interface Item {
-  title: string;
-  image?: string;
-  href: string;
-  desc: string;
-}
+import fe from '../assets/frontEnd';
 
 class App extends Component {
-  renderRow = (data: ItemList[]) => {
-    return data.map((e: ItemList) => {
+  renderRow = data => {
+    return data.map(e => {
       return (
         <div key={e.title} className={styles.category}>
 
@@ -36,8 +23,8 @@ class App extends Component {
     });
   }
 
-  renderCol = (itemList: Item[]) => {
-    return itemList.map((e: Item) => {
+  renderCol = (itemList) => {
+    return itemList.map(e => {
       return (
         <Col key={e.title} xxl={6} xl={8} lg={12} sm={24} xs={24}>
           <div className={styles.itemBox}>
@@ -61,7 +48,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <BasicLayout>
+        <BasicLayout data={fe}>
           { this.renderRow(fe) }
         </BasicLayout>
       </div>
