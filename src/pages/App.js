@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'antd';
+import { BackTop, Row, Col } from 'antd';
 import { AlignRightOutlined } from '@ant-design/icons';
 import BasicLayout from '../layouts/BasicLayout';
 import styles from './App.module.css';
@@ -9,11 +9,14 @@ import fe from '../assets/frontEnd';
 class App extends Component {
   renderRow = data => {
     return data.map(e => {
+      if (e.children) {
+        return this.renderRow(e.children);
+      }
       return (
         <div key={e.title} className={styles.category}>
-
           <h4 className={styles.categoryTitle} id={e.title}>
-            <AlignRightOutlined style={{marginRight: 5}} />{e.title}
+            <AlignRightOutlined style={{marginRight: 5}} />
+            {e.title}
           </h4>
           <Row gutter={16}>
             {this.renderCol(e.list)}
@@ -34,7 +37,7 @@ class App extends Component {
               alt={e.title} 
             />
             <div className={styles.itemTextBox} >
-              <a href={e.href}>
+              <a href={e.href} target="_blank" rel="noopener noreferrer">
                 <strong>{e.title}</strong>
               </a>
               <p title={e.desc}>{e.desc}</p>
@@ -48,6 +51,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <BackTop style={{right: 50}} />
         <BasicLayout data={fe}>
           { this.renderRow(fe) }
         </BasicLayout>

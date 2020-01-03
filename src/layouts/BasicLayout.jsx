@@ -4,11 +4,11 @@ import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,
   UserOutlined,
-  VideoCameraOutlined,
-  UploadOutlined,
+  AppstoreOutlined,
 } from '@ant-design/icons';
 import styles from './BasicLayout.module.css';
 
+const { SubMenu } = Menu;
 const { Header, Sider, Content, Footer } = Layout;
 
 class BasicLayout extends React.Component {
@@ -25,26 +25,63 @@ class BasicLayout extends React.Component {
   render() {
     return (
       <Layout className={styles.layout}>
-        <Sider width="256" trigger={null} collapsible collapsed={this.state.collapsed}>
+        <Sider 
+          className={styles.sider}
+          width="256" 
+          trigger={null} 
+          collapsible 
+          collapsed={this.state.collapsed}
+        >
           <div className={styles.logo}>
             { this.state.collapsed ? '导航' : '前端导航' }
           </div>
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
-            <Menu.Item key="1">
-              <UserOutlined />
-              <span>nav 1</span>
-            </Menu.Item>
-            <Menu.Item key="2">
-              <VideoCameraOutlined />
-              <span>nav 2</span>
-            </Menu.Item>
-            <Menu.Item key="3">
-              <UploadOutlined />
-              <span>nav 3</span>
-            </Menu.Item>
+            {
+              this.props.data.map(e => {
+                if (e.children) {
+                  return (
+                    <SubMenu 
+                      key={e.title} 
+                      title={
+                        <span>
+                          <AppstoreOutlined />
+                          <span>{e.title}</span>
+                        </span>
+                      }
+                    >
+                      {
+                        e.children.map(e1 => {
+                          return (
+                            <Menu.Item key={e1.title}>
+                              <a href={`#${e1.title}`} style={{color:'rgba(255, 255, 255, 0.65)'}}>
+                                <UserOutlined />
+                                <span>{e1.title}</span>
+                              </a>
+                            </Menu.Item>
+                          );
+                        })
+                      }
+                    </SubMenu>
+                  );
+                }
+                return (
+                  <Menu.Item key={e.title}>
+                    <a href={`#${e.title}`} style={{color:'rgba(255, 255, 255, 0.65)'}}>
+                      <UserOutlined />
+                      <span>{e.title}</span>
+                    </a>
+                  </Menu.Item>
+                );
+              })
+            }
           </Menu>
         </Sider>
-        <Layout>
+        <Layout 
+          style={{ 
+            marginLeft: this.state.collapsed ? 80 : 256, 
+            transition: 'all 0.2s' 
+          }}
+        >
           <Header className={styles.header} style={{ padding: 0 }}>
             {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
               className: styles.trigger,
