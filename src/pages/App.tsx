@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'antd';
+import { AlignRightOutlined } from '@ant-design/icons';
 import BasicLayout from '../layouts/BasicLayout';
-import './App.css';
+import styles from './App.module.css';
 
-import data from '../assets/FE';
+import fe from '../assets/FE';
 
 interface ItemList {
   title: string;
   icon: string;
-  list?: Item[];
-}
-
-interface ItemChildren {
-  title: string;
-  icon: string;
-  children?: ItemChildren[];
+  list: Item[];
 }
 
 interface Item {
@@ -25,39 +20,49 @@ interface Item {
 }
 
 class App extends Component {
-  renderRow = (d: ItemList[] | ItemChildren[]) => {
-    console.log(d);
-    return d.map((e: ItemList | ItemChildren) => {
-      console.log(e);
-      // if (e.children) {
-      //   return this.renderRow(e.children);
-      // }
+  renderRow = (data: ItemList[]) => {
+    return data.map((e: ItemList) => {
       return (
-        <Row key={e.title}>
-          {e.title}
-        </Row>
+        <div key={e.title} className={styles.category}>
+
+          <h4 className={styles.categoryTitle} id={e.title}>
+            <AlignRightOutlined style={{marginRight: 5}} />{e.title}
+          </h4>
+          <Row gutter={16}>
+            {this.renderCol(e.list)}
+          </Row>
+        </div>
       );
     });
+  }
+
+  renderCol = (itemList: Item[]) => {
+    return itemList.map((e: Item) => {
+      return (
+        <Col key={e.title} xxl={6} xl={8} lg={12} sm={24} xs={24}>
+          <div className={styles.itemBox}>
+            <img 
+              className={styles.itemImg} 
+              src={e.image ? e.image : './images/logo/default.png'} 
+              alt={e.title} 
+            />
+            <div className={styles.itemTextBox} >
+              <a href={e.href}>
+                <strong>{e.title}</strong>
+              </a>
+              <p title={e.desc}>{e.desc}</p>
+            </div>
+          </div>
+        </Col>
+      );
+    })
   }
 
   render() {
     return (
       <div className="App">
         <BasicLayout>
-          { this.renderRow(data) }
-          <Row>
-            <Col span={6}>
-              <div style={{
-                margin: 15,
-                height: 54
-              }}>
-                <img src="" alt=""/>
-              </div>
-            </Col>
-            <Col span={6}>col-6</Col>
-            <Col span={6}>col-6</Col>
-            <Col span={6}>col-6</Col>
-          </Row>
+          { this.renderRow(fe) }
         </BasicLayout>
       </div>
     );

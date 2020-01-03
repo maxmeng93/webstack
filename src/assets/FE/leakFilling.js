@@ -38,19 +38,19 @@ export default {
       list: [
         {
           title: 'LeetCode',
-          image: './assets/images/logo/leetcode-cn.png',
+          image: './images/logo/leetcode-cn.png',
           href: 'https://leetcode-cn.com/',
           desc: '力扣 (LeetCode) 中国官网 - 全球极客挚爱的技术成长平台'
         },
         {
           title: 'FreeCodeCamp',
-          image: './assets/images/logo/freecodecamp.png',
+          image: './images/logo/freecodecamp.png',
           href: 'https://www.freecodecamp.cn/',
           desc: 'FreeCodeCamp中文社区'
         },
         {
           title: '牛客网',
-          image: './assets/images/logo/nowcoder.png',
+          image: './images/logo/nowcoder.png',
           href: 'https://www.nowcoder.com/',
           desc: '互联网求职神器和备考学习平台'
         },

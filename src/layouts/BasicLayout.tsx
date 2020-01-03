@@ -60,7 +60,10 @@ class BasicLayout extends React.Component {
           >
             {this.props.children}
           </Content>
-          <Footer style={{ textAlign: 'center' }}>©2019 Created by <a href="https://www.maxmeng.top/">MaxMeng</a></Footer>
+          <Footer style={{ textAlign: 'center' }}>
+            ©2019 Created by&nbsp;
+            <a target="_blank" rel="noopener noreferrer" href="https://www.maxmeng.top/">MaxMeng</a>
+          </Footer>
         </Layout>
       </Layout>
     );

@@ -8,7 +8,6 @@ export default {
       desc: '可能是让你受益匪浅的英语进阶指南'
     }, {
       title: 'API速查',
-      image: '',
       href: 'https://devhints.io/',
       desc: 'DR for developer documentation'
     },

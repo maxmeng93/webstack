@@ -9,9 +9,9 @@ import partTime from './partTime';
 import other from './other';
 
 export default [
-  resources,
-  leakFilling,
-  framework,
+  // resources,
+  // leakFilling,
+  // framework,
   community,
   mooc,
   onlineCode,
