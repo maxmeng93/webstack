@@ -34,5 +34,6 @@ jobs:
         port: 22
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         rm: true
-        source: './build/*'
+        source: './build/'
         target: '/www/webstack.maxmeng.top'
+        strip_components: 1
