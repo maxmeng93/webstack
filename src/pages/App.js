@@ -15,7 +15,7 @@ class App extends Component {
       return (
         <div key={e.title} className={styles.category}>
           <h4 className={styles.categoryTitle} id={e.title}>
-            <AlignRightOutlined style={{marginRight: 5}} />
+            <AlignRightOutlined style={{ marginRight: 5 }} />
             {e.title}
           </h4>
           <Row gutter={16}>
@@ -31,10 +31,10 @@ class App extends Component {
       return (
         <Col key={e.title} xxl={6} xl={8} lg={12} sm={24} xs={24}>
           <div className={styles.itemBox}>
-            <img 
-              className={styles.itemImg} 
-              src={e.image ? e.image : './images/logo/default.png'} 
-              alt={e.title} 
+            <img
+              className={styles.itemImg}
+              src={e.image ? e.image : './images/logo/default.png'}
+              alt={e.title}
             />
             <div className={styles.itemTextBox} >
               <a href={e.href} target="_blank" rel="noopener noreferrer">
@@ -50,10 +50,10 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <BackTop style={{right: 50}} />
+      <div className={styles.app}>
+        <BackTop style={{ right: 50 }} />
         <BasicLayout data={fe}>
-          { this.renderRow(fe) }
+          {this.renderRow(fe)}
         </BasicLayout>
       </div>
     );
