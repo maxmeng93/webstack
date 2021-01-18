@@ -1,4 +1,4 @@
-export default {
+const data = {
   title: '前端框架',
   icon: 'linecons-star',
   children: [
@@ -166,3 +166,5 @@ export default {
     }
   ]
 };
+
+export default data;

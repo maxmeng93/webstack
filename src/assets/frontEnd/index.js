@@ -8,7 +8,7 @@ import blog from './blog';
 import partTime from './partTime';
 import other from './other';
 
-export default [
+const data = [
   resources,
   leakFilling,
   framework,
@@ -18,4 +18,6 @@ export default [
   blog,
   partTime,
   other,
-]
+];
+
+export default data;

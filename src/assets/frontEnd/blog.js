@@ -1,4 +1,4 @@
-export default {
+const data = {
   title: '大牛博客',
   icon: 'linecons-user',
   list: [
@@ -27,3 +27,5 @@ export default {
     }
   ]
 };
+
+export default data;

@@ -1,4 +1,4 @@
-export default {
+const data = {
   title: '兼职平台',
   icon: 'linecons-user',
   list: [
@@ -28,3 +28,5 @@ export default {
     },
   ]
 };
+
+export default data;

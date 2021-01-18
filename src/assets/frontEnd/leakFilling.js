@@ -1,4 +1,4 @@
-export default {
+const data = {
   title: '查漏补缺',
   icon: 'linecons-thumbs-up',
   children: [
@@ -63,3 +63,5 @@ export default {
     }
   ]
 };
+
+export default data;

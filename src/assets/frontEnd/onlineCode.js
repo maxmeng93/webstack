@@ -1,4 +1,4 @@
-export default {
+const data = {
   title: '在线编码',
   icon: 'linecons-pencil',
   list: [
@@ -28,3 +28,5 @@ export default {
     }
   ]
 };
+
+export default data;

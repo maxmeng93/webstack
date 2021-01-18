@@ -1,4 +1,4 @@
-export default {
+const data = {
   title: '网上课堂',
   icon: 'linecons-lightbulb',
   list: [
@@ -46,3 +46,5 @@ export default {
     }
   ]
 };
+
+export default data;
