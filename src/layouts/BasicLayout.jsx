@@ -8,6 +8,8 @@ import {
 } from '@ant-design/icons';
 import styles from './BasicLayout.module.css';
 
+console.log(styles)
+
 const { SubMenu } = Menu;
 const { Header, Sider, Content, Footer } = Layout;
 
@@ -76,12 +78,7 @@ class BasicLayout extends React.Component {
             }
           </Menu>
         </Sider>
-        <Layout 
-          style={{ 
-            marginLeft: this.state.collapsed ? 80 : 256, 
-            transition: 'all 0.2s' 
-          }}
-        >
+        <Layout>
           <Header className={styles.header} style={{ padding: 0 }}>
             {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
               className: styles.trigger,

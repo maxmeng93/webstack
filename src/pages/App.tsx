@@ -3,12 +3,13 @@ import { BackTop, Row, Col } from 'antd';
 import { AlignRightOutlined } from '@ant-design/icons';
 import BasicLayout from '../layouts/BasicLayout';
 import styles from './App.module.css';
+import 'antd/dist/antd.css';
 
 import fe from '../assets/frontEnd';
 
 class App extends Component {
-  renderRow = data => {
-    return data.map(e => {
+  renderRow = (data: any) => {
+    return data.map((e: any) => {
       if (e.children) {
         return this.renderRow(e.children);
       }
@@ -26,8 +27,8 @@ class App extends Component {
     });
   }
 
-  renderCol = (itemList) => {
-    return itemList.map(e => {
+  renderCol = (itemList: any) => {
+    return itemList.map((e: any) => {
       return (
         <Col key={e.title} xxl={6} xl={8} lg={12} sm={24} xs={24}>
           <div className={styles.itemBox}>
