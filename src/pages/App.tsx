@@ -29,12 +29,22 @@ class App extends Component {
 
   renderCol = (itemList: any) => {
     return itemList.map((e: any) => {
+      console.log('=============')
+      console.log(e.image)
+      const defaultImage = '/images/logo/default.png';
+      let img = e.image || defaultImage;
+      if (img.indexOf('http') !== 0) {
+        img = '/webstack' + img;
+      }
+
+      console.log(img)
+
       return (
         <Col key={e.title} xxl={6} xl={8} lg={12} sm={24} xs={24}>
           <div className={styles.itemBox}>
             <img
               className={styles.itemImg}
-              src={e.image ? e.image : './images/logo/default.png'}
+              src={img}
               alt={e.title}
             />
             <div className={styles.itemTextBox} >
