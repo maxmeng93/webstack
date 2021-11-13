@@ -8,8 +8,6 @@ import {
 } from '@ant-design/icons';
 import styles from './BasicLayout.module.css';
 
-console.log(styles)
-
 const { SubMenu } = Menu;
 const { Header, Sider, Content, Footer } = Layout;
 
