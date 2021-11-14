@@ -85,17 +85,19 @@ class BasicLayout extends React.Component {
           </Header>
           <Content
             style={{
-              margin: '24px 16px',
+              margin: '0',
               padding: 24,
               minHeight: 280,
+              overflowY: 'auto'
             }}
           >
             {this.props.children}
+            <Footer style={{ textAlign: 'center' }}>
+              ©2019 Created by&nbsp;
+              <a target="_blank" rel="noopener noreferrer" href="https://www.maxmeng.top/">MaxMeng</a>
+            </Footer>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>
-            ©2019 Created by&nbsp;
-            <a target="_blank" rel="noopener noreferrer" href="https://www.maxmeng.top/">MaxMeng</a>
-          </Footer>
+
         </Layout>
       </Layout>
     );
