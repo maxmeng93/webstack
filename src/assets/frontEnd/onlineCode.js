@@ -17,7 +17,7 @@ const data = {
     {
       title: 'JS Bin',
       image: '/images/logo/code.h5jun.com.png',
-      href: 'https://code.h5jun.com/',
+      href: 'https://code.h5jun.com/sivuca/edit?js,console',
       desc: 'Collaborative JavaScript Debugging'
     },
     {
